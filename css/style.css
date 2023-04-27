@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: rgb(21, 105, 46);
+  color: #bababa;
+}
+
+h1 {
+  width: 100%;
+  height: table;
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(68, 204, 80);
+  color: #000;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px;
+}
+
+.col-inteira {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-content: center;
+}
+
+.col-1 {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.col-2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.grupo-familiar {
+  display: flex;
+  width: 680px;
+  height: fit-content;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.grupo-familiar h2 {
+  margin-bottom: 5px;
+}
+
+.grupo-familiar .parente-linha {
+  color: #fff;
+  background-color: transparent;
+  font-weight: 700;
+  border: none;
+  display: block;
+}
+
+.parente-linha a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.parente-linha a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* .bisavo {
+  margin-left: 30px;
+}
+
+.avo {
+  margin-left: 60px;
+}
+
+.mae {
+  margin-left: 90px;
+} */
+
+.req1 {
+  display: grid;
+  align-self: flex-start;
+}
+
+.infos {
+  margin-top: 10px;
+  display: flex;
+  gap: 30px;
+}
+
+.infos p {
+  margin: 5px auto;
+}
+
+.certidao {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 5px 20px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  background-color: #bababa;
+}
+
+.certidao:hover {
+  opacity: 0.85;
+  border: 2px solid #000;
+  font-weight: 700;
+}
