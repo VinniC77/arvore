@@ -50,7 +50,7 @@ h1 {
 
 .grupo-familiar {
   display: flex;
-  width: 680px;
+  width: 625px;
   height: fit-content;
   flex-direction: column;
   padding: 10px;
